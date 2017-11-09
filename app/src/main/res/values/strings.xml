@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">NewsFeed</string>
+    <string name="explore">Explore</string>
+    <string name="live_chat">Live Chat</string>
+    <string name="gallery">Gallery</string>
+    <string name="wish_list">Wish List</string>
+    <string name="e_magazine">E_Magazine</string>
 </resources>
