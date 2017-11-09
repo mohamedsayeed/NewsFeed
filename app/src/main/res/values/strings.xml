@@ -5,4 +5,11 @@
     <string name="gallery">Gallery</string>
     <string name="wish_list">Wish List</string>
     <string name="e_magazine">E_Magazine</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="greeting_msg">Welcome</string>
+    <string name="profile_name">Tony Roshdy</string>
+    <string name="profile_picture">Profile Picture Content Description</string>
+    <string name="arrow">arrow Content Description</string>
+    <string name="Search">Search</string>
 </resources>

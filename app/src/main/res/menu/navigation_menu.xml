@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
 
-    <item android:id="@+id/explore" android:title="@string/explore" />
-    <item android:id="@+id/live_chat" android:title="@string/live_chat" />
-    <item android:id="@+id/gallery" android:title="@string/gallery" />
-    <item android:id="@+id/wish_list" android:title="@string/wish_list" />
-    <item android:id="@+id/e_magazine" android:title="@string/e_magazine" />
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/explore"
+            android:icon="@drawable/explore"
+            android:title="@string/explore" />
+        <item
+            android:id="@+id/live_chat"
+            android:icon="@drawable/live"
+            android:title="@string/live_chat" />
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/gallery"
+            android:title="@string/gallery" />
+        <item
+            android:id="@+id/wish_list"
+            android:icon="@drawable/wishlist"
+            android:title="@string/wish_list" />
+        <item
+            android:id="@+id/e_magazine"
+            android:icon="@drawable/e_magazine"
+            android:title="@string/e_magazine" />
+    </group>
 
 </menu>
