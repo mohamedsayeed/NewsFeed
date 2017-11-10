@@ -4,12 +4,7 @@ import com.link.newsfeed.model.Result;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
-
-/**
- * Created by Mohamed Sayed on 11/10/2017.
- */
-
 public interface API {
-    @GET()
+    @GET("articles?source=the-next-web&apiKey=533af958594143758318137469b41ba9")
     Call<Result> getArticles();
 }

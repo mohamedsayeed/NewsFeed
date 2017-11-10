@@ -10,6 +10,8 @@
     <string name="greeting_msg">Welcome</string>
     <string name="profile_name">Tony Roshdy</string>
     <string name="profile_picture">Profile Picture Content Description</string>
+    <string name="article_image">Profile Picture Content Description</string>
     <string name="arrow">arrow Content Description</string>
     <string name="Search">Search</string>
+    <string name="open_website">Open Website</string>
 </resources>

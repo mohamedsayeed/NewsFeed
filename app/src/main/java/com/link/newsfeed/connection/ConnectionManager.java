@@ -12,15 +12,11 @@ import retrofit2.Call;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-/**
- * Created by Mohamed Sayed on 11/10/2017.
- */
-
 public class ConnectionManager {
 
     private API api;
 
-    public static final String BASE_URL = "https://newsapi.org/v1/articles?source=the-next-web&apiKey=533af958594143758318137469b41ba9";
+    private static final String BASE_URL = "https://newsapi.org/v1/";
 
 
 

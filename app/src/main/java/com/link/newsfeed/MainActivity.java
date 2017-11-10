@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         mRecyclerArticles = findViewById(R.id.articles_list);
 
         //Showing progress dialog
-        mProgressDialog = new ProgressDialog(MainActivity.this);
+        mProgressDialog = new ProgressDialog(this);
         mProgressDialog.setMessage("Please Wait...");
         mProgressDialog.setCancelable(false);
         mProgressDialog.show();
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                  * Updating parsed JSON data into Adapter
                  */
                 mRecyclerArticles.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-                mArticleAdapter = new ArticleAdapter(getApplicationContext(), mArticlesArray);
+                mArticleAdapter = new ArticleAdapter(MainActivity.this, mArticlesArray);
                 mRecyclerArticles.setAdapter(mArticleAdapter);
             }
 
