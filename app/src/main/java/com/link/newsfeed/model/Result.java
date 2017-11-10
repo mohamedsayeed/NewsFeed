@@ -1,11 +1,12 @@
 
 package com.link.newsfeed.model;
 
-import java.util.ArrayList;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Response {
+import java.util.ArrayList;
+
+public class Result {
 
     @SerializedName("status")
     @Expose
@@ -54,3 +55,4 @@ public class Response {
 
 
 }
+

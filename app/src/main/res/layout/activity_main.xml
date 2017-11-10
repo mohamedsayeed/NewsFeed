@@ -32,7 +32,7 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header"
-        app:itemBackground="@drawable/selected_background"
+        app:itemBackground="@drawable/checked_selector"
         app:menu="@menu/navigation_menu">
 
     </android.support.design.widget.NavigationView>

@@ -1,4 +1,5 @@
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<layer-list
+    android:paddingStart="40dp" xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/selected"
         android:gravity="start">
     </item>
